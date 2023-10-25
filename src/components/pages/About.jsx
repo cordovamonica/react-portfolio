@@ -1,6 +1,10 @@
+import React from "react";
+import profilepic from "../../assets/profilepic.jpg";
+
 export default function About() {
   return (
-    <div className="lh-lg">
+    <div className="lh-lg text-center mx-5 p-5 ">
+      <img src={profilepic} alt="profilepic" className="img-fluid rounded-circle" />
       <p>
         I initially graduated in 2016 with a degree in Psychology. After years
         of not pursuing anything with my degree and bouncing from job to job

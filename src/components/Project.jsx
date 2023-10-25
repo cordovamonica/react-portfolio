@@ -8,8 +8,8 @@ export default function Project(props) {
             <h3>{props.name}</h3>
             <p>{props.description}</p>
             <div >
-            <a className="btn btn-xl btn-outline-dark mx-1" href={`${props.github}`}>GitHub</a>
-            <a className="btn btn-xl btn-outline-dark mx-1" href={`${props.deployed}`}>Go to deployed app</a>
+            <a className="btn btn-xl btn-outline-light mx-1" href={`${props.github}`}>GitHub</a>
+            <a className="btn btn-xl btn-outline-light mx-1" href={`${props.deployed}`}>Go to deployed app</a>
            </div>
         </div>
         </>

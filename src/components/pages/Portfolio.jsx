@@ -8,7 +8,7 @@ export default function Portfolio() {
     return (
         <>
         <div>
-            <h2 className="mx-3 mt-4">Portfolio</h2>
+            <h2 className="pages mx-3 mt-4">Portfolio</h2>
         </div>
 
         <div className="mx-5 p-5">

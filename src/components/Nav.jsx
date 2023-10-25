@@ -8,16 +8,16 @@ export default function Nav(props) {
       <nav>
         <Navbar
           links={[
-            <Link className="btn btn-xl btn-outline-dark mx-1 mt-4" key={1} to="/about">
+            <Link className="btn btn-xl btn-outline-light mx-1 mt-4" key={1} to="/about">
               About
             </Link>,
-            <Link className="btn btn-xl btn-outline-dark mx-1 mt-4" key={2} to="/portfolio">
+            <Link className="btn btn-xl btn-outline-light mx-1 mt-4" key={2} to="/portfolio">
               Portfolio
             </Link>,
-            <Link className="btn btn-xl btn-outline-dark mx-1 mt-4" key={3} to="/contact">
+            <Link className="btn btn-xl btn-outline-light mx-1 mt-4" key={3} to="/contact">
               Contact
             </Link>,
-            <Link className="btn btn-xl btn-outline-dark mx-1 mt-4" key={4} to="/resume">
+            <Link className="btn btn-xl btn-outline-light mx-1 mt-4" key={4} to="/resume">
               Resume
             </Link>,
           ]}

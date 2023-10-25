@@ -1,0 +1,19 @@
+#root {
+  background-color: #565264;
+  color: #EAD7CF;
+  font-size: larger;
+}
+
+:root {
+  background-color: #565264;
+}
+
+.header {
+  color: #D7AAB8;
+  font-size: 4em;
+}
+
+.pages {
+  color: #D7AAB8;
+  font-size: 2em;
+}

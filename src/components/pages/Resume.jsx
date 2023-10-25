@@ -4,9 +4,11 @@ export default function Resume() {
   return (
     <>
     <div>
-        <h2 className="mx-3 mt-4">Resume</h2>
+        <h2 className="pages mx-3 mt-4">Resume</h2>
     </div>
-        <div className="mx-5 p-4">
+
+    <div className="row align-items-center">
+        <div className="mx-auto p-auto col-lg-2 ms-auto">
             <h3>Technical Skills</h3>
             <ul>
                 <li>HTML</li>
@@ -24,7 +26,7 @@ export default function Resume() {
             </ul>
         </div>
 
-        <div className="mx-5 p-4">
+        <div className="mx-auto p-auto col-lg-2 ms-auto">
             <h3>Education</h3>
             <p>University Texas at San Antonio</p>
             <p>Full Stack Web Development Certificate</p>
@@ -33,10 +35,11 @@ export default function Resume() {
             <p>Bachelor of Arts, Psychology</p>
             <p>2016</p>
         </div>
+        </div>
 
-      <div className="text-center mt-4">
-        <a className="btn btn-xl btn-outline-dark" href="https://docs.google.com/document/d/1kt0i73Lj83F1SQaoJgz18TyHZKkfzc6Y/edit?usp=sharing&ouid=118099630848561767079&rtpof=true&sd=true">
-          <i className="fas fa-download me-2"></i>
+      <div className="text-center mt-4 mb-4">
+        <a className="btn btn-xl btn-outline-light" href="https://docs.google.com/document/d/1kt0i73Lj83F1SQaoJgz18TyHZKkfzc6Y/edit?usp=sharing&ouid=118099630848561767079&rtpof=true&sd=true">
+          <i className="fas fa-download"></i>
           Download My Resume!
         </a>
       </div>

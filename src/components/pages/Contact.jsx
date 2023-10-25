@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <>
       <div>
-        <h2 className="mx-3 mt-4">Contact</h2>
+        <h2 className="pages mx-3 mt-4">Contact</h2>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="form-group mx-3">
@@ -52,7 +52,7 @@ export default function Contact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-xl btn-outline-dark mx-3 mt-2">
+        <button type="submit" className="btn btn-xl btn-outline-light mx-3 mt-2">
           Submit
         </button>
       </form>

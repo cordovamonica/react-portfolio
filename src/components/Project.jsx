@@ -4,7 +4,7 @@ export default function Project(props) {
     return (
         <>
         <div className="mb-5">
-            <img src={`${props.img}`} alt={`${props.name}`} />
+            <img src={`${props.img}`} alt={`${props.name}`} className="img-fluid rounded-4"/>
             <h3>{props.name}</h3>
             <p>{props.description}</p>
             <div >

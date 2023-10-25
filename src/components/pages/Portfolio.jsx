@@ -11,7 +11,7 @@ export default function Portfolio() {
             <h2>Portfolio</h2>
         </div>
 
-        <div>
+        <div className="mx-5 p-5">
             <Project
             id="1"
             name="Meow Me!"

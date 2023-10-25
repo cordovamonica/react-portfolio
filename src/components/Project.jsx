@@ -3,19 +3,14 @@ import React from "react";
 export default function Project(props) {
     return (
         <>
-        <div>
+        <div className="mb-5">
             <img src={`${props.img}`} alt={`${props.name}`} />
             <h3>{props.name}</h3>
             <p>{props.description}</p>
             <div >
-            <a className="icon-link icon-link-hover" href={`${props.github}`}>GitHub
-            <svg className="bi" aria-hidden="true">
-                <use xlinkHref="#arrow-right"></use></svg></a>
-            <a href={`${props.deployed}`}>Go to deployed app
-            <svg className="bi" aria-hidden="true">
-                <use xlinkHref="#arrow-right"></use></svg></a>
-                
-            </div>
+            <a className="btn btn-xl btn-outline-dark mx-1" href={`${props.github}`}>GitHub</a>
+            <a className="btn btn-xl btn-outline-dark mx-1" href={`${props.deployed}`}>Go to deployed app</a>
+           </div>
         </div>
         </>
     )

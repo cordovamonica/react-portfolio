@@ -8,18 +8,18 @@ export default function Nav(props) {
       <nav>
         <Navbar
           links={[
-            <Link key={1} to="/about">
+            <button><Link key={1} to="/about">
               About
-            </Link>,
-            <Link key={2} to="/portfolio">
+            </Link></button>,
+            <button><Link key={2} to="/portfolio">
               Portfolio
-            </Link>,
-            <Link key={3} to="/contact">
+            </Link></button>,
+            <button><Link key={3} to="/contact">
               Contact
-            </Link>,
-            <Link key={4} to="/resume">
+            </Link></button>,
+            <button><Link key={4} to="/resume">
               Resume
-            </Link>,
+            </Link></button>,
           ]}
         />
       </nav>

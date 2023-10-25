@@ -16,10 +16,12 @@ export default function Contact() {
   return (
     <>
       <div>
-        <h2 className="pages mx-3 mt-4">Contact</h2>
+        <h2 className="pages mx-3 mt-4">Get in Touch!</h2>
       </div>
+
+      <div className="row g-3">
       <form onSubmit={handleSubmit}>
-        <div className="form-group mx-3">
+        <div className="form-floating mb-3 mx-5 col-sm-5">
           <label htmlFor="name">Name</label>
           <input
             type="text"
@@ -30,7 +32,7 @@ export default function Contact() {
             required
           />
         </div>
-        <div className="form-group mx-3">
+        <div className="form-floating mb-3 mx-5 col-sm-5">
           <label htmlFor="email">Email address</label>
           <input
             type="email"
@@ -41,7 +43,7 @@ export default function Contact() {
             required
           />
         </div>
-        <div className="form-group mx-3">
+        <div className="form-floating mb-3 mx-5 col-sm-5">
           <label htmlFor="message">Message</label>
           <textarea
             className="form-control"
@@ -52,10 +54,11 @@ export default function Contact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-xl btn-outline-light mx-3 mt-2">
+        <button type="submit" className="btn btn-xl btn-outline-light mx-5 mt-2">
           Submit
         </button>
-      </form>
+        </form>
+      </div>
     </>
   );
 }

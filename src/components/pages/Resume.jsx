@@ -39,7 +39,6 @@ export default function Resume() {
 
       <div className="text-center mt-4 mb-4">
         <a className="btn btn-xl btn-outline-light" href="https://docs.google.com/document/d/1kt0i73Lj83F1SQaoJgz18TyHZKkfzc6Y/edit?usp=sharing&ouid=118099630848561767079&rtpof=true&sd=true">
-          <i className="fas fa-download"></i>
           Download My Resume!
         </a>
       </div>

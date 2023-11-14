@@ -3,6 +3,7 @@ import Project from "../Project";
 import meowme from "../../assets/projects/meowme.png";
 import socialsniffers from "../../assets/projects/socialsniffers.png";
 import texteditor from "../../assets/projects/texteditor.png";
+import keepitkandy from "../../assets/projects/keepitkandy (2).png";
 
 export default function Portfolio() {
     return (
@@ -36,6 +37,14 @@ export default function Portfolio() {
             github="https://github.com/cordovamonica/pwa-text-editor"
             deployed="https://safe-fortress-11725-881c2621c3c1.herokuapp.com/"
             img={texteditor}
+            />
+            <Project
+            id="4"
+            name="Keep It Kandy"
+            description="Keep It Kandy is a candy store app that allows users to view, add, and delete candy from their cart."
+            github="https://github.com/cordovamonica/keep-it-kandy"
+            deployed="https://keepitkandy-131b285227bb.herokuapp.com/"
+            img={keepitkandy}
             />
         </div>
         </div>
